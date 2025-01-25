@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex K's Portfolio - Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .no-list-style {
+            list-style: none;
+        }
+    </style>
 </head>
 <body>
     <!-- Menu bar -->
     <div class="menuBar">
-        <li style="display: inline;">
+        <li class="no-list-style">
             <a href="index.html">Homepage</a>
             <a href="education.html">My education and skills</a>
             <a href="about-me.html">About me</a>
@@ -20,25 +25,23 @@
 
     <!-- Heading of the page you are on -->
     <div class="page-heading">
-        <h1>Portfolio - Scratch platformer game</h1>
+        <h1>Portfolio - Scratch Platformer Game</h1>
     </div>
 
-    <p>Here's a short video showcasing the game in action:</p>
-    <video width="486" height="408" controls>
-        <source src="assets/Scratch-game-1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    
     <div class="container">
-        <a href="portfolio.html">&larr; Back</a>
-        <p>When I had experience of Scratch, I did make a platformer game, which had complex code.</p>
-        <img src="assets/scratch1.png" width="315" height="250">
-        <img src="assets/scratch2.png" width="315" height="250">
-        <img src="assets/scratch3.png" width="315" height="250">
-        <img src="assets/scratch4.png" width="315" height="250">
-        
+        <p>Here's a short video showcasing the game in action:</p>
+        <video controls poster="assets/Scratch-game-thumbnail.jpg">
+            <source src="assets/Scratch-game-1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
+        <p><a href="portfolio.html">&larr; Back</a></p>
+        <p>During my experience with Scratch, I created a platformer game that involved complex coding.</p>
+
+        <img src="assets/scratch1.png" alt="Gameplay from level 1 of the Scratch platformer game">
+        <img src="assets/scratch2.png" alt="A complex coding sequence from the Scratch game">
+        <img src="assets/scratch3.png" alt="Gameplay from level 2 of the Scratch platformer game">
+        <img src="assets/scratch4.png" alt="Visuals of a challenging section in the Scratch game">
     </div>
 </body>
 </html>
