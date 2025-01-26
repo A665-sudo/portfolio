@@ -12,13 +12,13 @@ body {
 /* Menu bar */
 .menuBar {
     width: 100%;
-    background-color: #F6F6F6;
+    background-color: indigo;
     padding: 0.5rem 0;
     text-align: center;
 }
 
 .menuBar a {
-    color: #281A39;
+    color: white;
     text-decoration: none;
     margin: 0 1rem;
     font-size: 1rem;
