@@ -12,7 +12,7 @@ body {
 /* Menu bar */
 .menuBar {
     width: 100%;
-    background-color: darkslategray;
+    background-color:dimgray;
     padding: 0.5rem 0;
     text-align: center;
 }
