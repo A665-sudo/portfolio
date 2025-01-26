@@ -31,12 +31,12 @@ body {
 /* Page heading */
 .page-heading {
     margin: 1.5rem 0;
-    text-align: center;
+    text-align: left;
 }
 
 /* Container */
 .container {
-    text-align: center;
+    text-align: left;
     max-width: 90%;
     margin: auto;
 }
